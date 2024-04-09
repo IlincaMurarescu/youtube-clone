@@ -16,11 +16,11 @@ export default function Header() {
       </div>
       <div className={styles.formContainer}>
         <form>
-          <input />
-          <button className={styles.formButton}>
+          <input type="text" placeholder="Search" />
+          <button className={styles.formButton1}>
             <img
               src="src\assets\magnifying-glass-svgrepo-com.svg"
-              className={styles.iconw}
+              className={styles.iconlens}
             ></img>
           </button>
         </form>

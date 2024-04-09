@@ -4,7 +4,10 @@
   align-items: center;
   background-color: red;
   width: 100%;
-  height: 40px;
+  height: 53px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .container {
@@ -18,8 +21,23 @@
   align-items: center;
 }
 
+form {
+  display: flex;
+}
+
+input {
+  width: 400px;
+  height: 33px;
+  padding-left: 10px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: 1px solid #d3d3d3;
+  outline: 0;
+  background: transparent;
+  box-shadow: 1 1px 2px #eee inset;
+}
+
 .button {
-  margin-right: 3px;
   border-radius: 50%;
   height: 35px;
   width: 35px;
@@ -32,11 +50,12 @@
 
 .button:hover {
   transition: background 0.2s;
-  background-color: #e5e5e5;
+  background-color: #d3d3d3;
   cursor: pointer;
 }
 
 .formButton {
+  margin-left: 4px;
   border-radius: 50%;
   height: 35px;
   width: 35px;
@@ -44,9 +63,25 @@
   background-color: transparent;
 }
 
-.fromButton:hover {
+.formButton:hover {
   transition: background 0.2s;
   background-color: #e5e5e5;
+  cursor: pointer;
+}
+
+.formButton1 {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+  height: 37px;
+  width: 45px;
+  border: none;
+  background-color: #e5e5e5;
+}
+
+.formButton1:hover {
+  transition: background 0.2s;
+  background-color: #d3d3d3;
   cursor: pointer;
 }
 
@@ -62,6 +97,7 @@
   border-radius: 50%;
   height: 90%;
   cursor: pointer;
+  margin-right: 5px;
 }
 
 .iconw {
@@ -70,4 +106,8 @@
 
 .iconh {
   height: 99%;
+}
+
+.iconlens {
+  height: 70%;
 }
