@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
 import styled from "styled-components";
 
-export default function Header() {
+export default function Header({ setSidebar }) {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
@@ -10,9 +10,15 @@ export default function Header() {
           <img
             src="src\assets\toggle-column-svgrepo-com.svg"
             className={styles.iconw}
+            onClick={() =>
+              setSidebar((prev) => (prev === false ? true : false))
+            }
           ></img>
         </button>
-        <img className="logo  "></img>
+        <img
+          src="src\assets\new-youtube-logo-840x402.jpg"
+          className={styles.logo}
+        ></img>
       </div>
       <div className={styles.formContainer}>
         <form>
