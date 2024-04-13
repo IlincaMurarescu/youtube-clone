@@ -5,20 +5,21 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
 
-function App({ sidebar }) {
-  // const [count, setCount] = useState(0)
+function App() {
+  const [sidebar, setSidebar] = useState(true);
 
   return (
     <>
-      <Header>.</Header>
+      <Header setSidebar={setSidebar}>.</Header>
 
       <Routes>
-        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/" element={<Home sidebar={sidebar}></Home>}></Route>
 
         <Route
           path="/video/:categoryId/:videoId"
-          element={<p>aici va fi pagina cu videos</p>}
+          element={<VideoPlayer />}
         ></Route>
       </Routes>
     </>

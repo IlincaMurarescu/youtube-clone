@@ -1,0 +1,116 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.playVideo {
+  width: 65%;
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 5px solid green; */
+
+  color: #282828;
+}
+
+.playVideo > * {
+  margin-bottom: 8px;
+}
+
+.playVideo video {
+  /* border: 4px solid red; */
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  /* border: 4px solid blue; */
+}
+
+.userData {
+  display: flex;
+}
+
+.smallContainer {
+  margin-right: 8px;
+}
+
+.userData img {
+  border-radius: 50%;
+}
+
+.userData button {
+  font-weight: bold;
+  padding: 0 15px;
+}
+
+.rightButtons {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.description {
+  background-color: #e5e5e5;
+  border-radius: 10px;
+
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.subscribers {
+  font-size: 14px;
+}
+
+button {
+  border-radius: 25px;
+  border: none;
+  margin: 0 5px;
+}
+
+button:hover {
+  transition: background 0.2s;
+  background-color: #d3d3d3;
+  cursor: pointer;
+}
+
+button img {
+  height: 24px;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment > * {
+  margin-bottom: 14px;
+}
+
+.comment {
+  display: flex;
+  justify-content: left;
+  align-items: start;
+}
+
+.commentAvatar {
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.commentUsername {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.commentContent {
+  font-size: 14px;
+}

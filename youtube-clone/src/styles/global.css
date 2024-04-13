@@ -9,6 +9,7 @@ black (text): #272727 sau #282828
 
 */
 
-/* body {
-  background-color: aqua;
-} */
+body {
+  font-family: Arial;
+  color: #282828;
+}

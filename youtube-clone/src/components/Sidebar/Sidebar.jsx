@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import "./Sidebar.css";
+import "../../styles/global.css";
 
 export default function Sidebar({ sidebar }) {
   return (
@@ -7,14 +8,23 @@ export default function Sidebar({ sidebar }) {
       <div className="subscribed-list">
         <h3>Subscribed</h3>
         <div className="side-links">
-          <img src="ceva"></img> <p>Cineva</p>
-          <img src="ceva"></img> <p>Cineva</p>
-          <img src="ceva"></img> <p>Cineva</p>
-          <img src="ceva"></img> <p>Cineva</p>
+          <div className="side-link">
+            <img src="src\assets\sidebar\trophy.svg"></img> <p>Cineva</p>
+          </div>
+          <div className="side-link">
+            <img src="ceva"></img> <p>Cineva</p>
+          </div>
+          <div className="side-link">
+            <img src="ceva"></img> <p>Cineva</p>
+          </div>
+          <div className="side-link">
+            <img src="ceva"></img> <p>Cineva</p>
+          </div>
         </div>
       </div>
 
       <div className="explore shortcut-link">
+        <h3>Explore</h3>
         <div className="side-link">
           <img src="src\assets\sidebar\home-filled.svg" alt="" className="" />
           <p>Home</p>
