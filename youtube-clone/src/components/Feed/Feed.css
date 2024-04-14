@@ -24,6 +24,7 @@
 .thumbnail-avatar {
   height: 24px;
   margin-right: 9px;
+  border-radius: 50%;
 }
 
 h3,

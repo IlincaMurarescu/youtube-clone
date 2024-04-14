@@ -1,0 +1,235 @@
+[
+  {
+    "id": 42,
+    "title": "Puppies Playing",
+    "video": "src/assets/videos/3045714-hd_1920_1080_25fps.mp4",
+    "description": "Watch these adorable puppies having fun and playing together.",
+    "views": 500,
+    "owner": {
+      "avatar": "https://i.pravatar.cc/150?img=33",
+      "username": "DogLover"
+    },
+    "posted_at": "2024-04-14T03:00:00Z",
+    "comments": [
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=42",
+          "username": "DogLover"
+        },
+        "content": "Reminds me of my own pups when they were little. So precious!"
+      },
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=41",
+
+          "username": "AnimalLover"
+        },
+        "content": "These puppies are the definition of pure joy."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "My Cat",
+    "video": "src/assets/videos/855029-hd_1920_1080_30fps.mp4",
+    "description": "Witness the curiosity of this adorable cat exploring its surroundings.",
+    "views": 800,
+    "owner": {
+      "avatar": "https://i.pravatar.cc/150?img=17",
+      "username": "CatLover123"
+    },
+    "posted_at": "2024-02-15T10:30:00Z",
+    "comments": [
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=25",
+          "username": "CatLover123"
+        },
+        "content": "This cat is so curious, just like mine!"
+      },
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=18",
+          "username": "Mike"
+        },
+        "content": "Love seeing cats explore new things. It's like they're discovering the world."
+      },
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=32",
+          "username": "MeowMaster"
+        },
+        "content": "The cuteness level is off the charts!"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Sounds of the Sea",
+    "video": "src/assets/videos/20325563-uhd_3840_2160_60fps.mp4",
+    "description": "Relax and unwind to the soothing sounds of the ocean waves.",
+    "views": 1200,
+    "owner": {
+      "avatar": "https://i.pravatar.cc/150?img=36",
+      "username": "Mary"
+    },
+    "posted_at": "2014-02-15T12:45:00Z",
+    "comments": [
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=53",
+          "username": "Mary"
+        },
+        "content": "Listening to this makes me feel like I'm right by the ocean."
+      },
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=13",
+          "username": "Antonio"
+        },
+        "content": "So calming! Perfect background noise for meditation."
+      },
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=11",
+          "username": "Tom"
+        },
+        "content": "I could listen to this all day long. It's like therapy for the soul."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "My Cat",
+    "video": "src/assets/videos/855029-hd_1920_1080_30fps.mp4",
+    "description": "Witness the curiosity of this adorable cat exploring its surroundings.",
+    "views": 800,
+    "owner": {
+      "avatar": "https://i.pravatar.cc/150?img=17",
+      "username": "CatLover123"
+    },
+    "posted_at": "2024-02-15T10:30:00Z",
+    "comments": [
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=25",
+          "username": "CatLover123"
+        },
+        "content": "This cat is so curious, just like mine!"
+      },
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=18",
+          "username": "Mike"
+        },
+        "content": "Love seeing cats explore new things. It's like they're discovering the world."
+      },
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=32",
+          "username": "MeowMaster"
+        },
+        "content": "The cuteness level is off the charts!"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Puppies Playing",
+    "video": "src/assets/videos/3045714-hd_1920_1080_25fps.mp4",
+    "description": "Watch these adorable puppies having fun and playing together.",
+    "views": 500,
+    "owner": {
+      "avatar": "https://i.pravatar.cc/150?img=33",
+      "username": "DogLover"
+    },
+    "posted_at": "2024-04-14T03:00:00Z",
+    "comments": [
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=42",
+          "username": "DogLover"
+        },
+        "content": "Reminds me of my own pups when they were little. So precious!"
+      },
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=41",
+
+          "username": "AnimalLover"
+        },
+        "content": "These puppies are the definition of pure joy."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "My Cat",
+    "video": "src/assets/videos/855029-hd_1920_1080_30fps.mp4",
+    "description": "Witness the curiosity of this adorable cat exploring its surroundings.",
+    "views": 800,
+    "owner": {
+      "avatar": "https://i.pravatar.cc/150?img=17",
+      "username": "CatLover123"
+    },
+    "posted_at": "2024-02-15T10:30:00Z",
+    "comments": [
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=25",
+          "username": "CatLover123"
+        },
+        "content": "This cat is so curious, just like mine!"
+      },
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=18",
+          "username": "Mike"
+        },
+        "content": "Love seeing cats explore new things. It's like they're discovering the world."
+      },
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=32",
+          "username": "MeowMaster"
+        },
+        "content": "The cuteness level is off the charts!"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Sounds of the Sea",
+    "video": "src/assets/videos/20325563-uhd_3840_2160_60fps.mp4",
+    "description": "Relax and unwind to the soothing sounds of the ocean waves.",
+    "views": 1200,
+    "owner": {
+      "avatar": "https://i.pravatar.cc/150?img=36",
+      "username": "Mary"
+    },
+    "posted_at": "2014-02-15T12:45:00Z",
+    "comments": [
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=53",
+          "username": "Mary"
+        },
+        "content": "Listening to this makes me feel like I'm right by the ocean."
+      },
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=13",
+          "username": "Antonio"
+        },
+        "content": "So calming! Perfect background noise for meditation."
+      },
+      {
+        "user": {
+          "avatar": "https://i.pravatar.cc/150?img=11",
+          "username": "Tom"
+        },
+        "content": "I could listen to this all day long. It's like therapy for the soul."
+      }
+    ]
+  }
+]
