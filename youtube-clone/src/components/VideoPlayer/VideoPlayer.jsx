@@ -5,9 +5,11 @@ import share from "../../assets/videoplayer/share.svg";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import getVideo from "../../utils/getvideobyid";
 import { useState, useEffect } from "react";
+import myvideo from "../../assets/videos/3045714-hd_1920_1080_25fps.mp4";
 
-export default function VideoPlayer() {
+export default function VideoPlayer({ sidebar }) {
   const [video, setVideo] = useState(null);
+
   const { videoId } = useParams();
 
   const navigate = useNavigate();
@@ -18,6 +20,7 @@ export default function VideoPlayer() {
     if (data.id) {
       setVideo(data);
       console.log(data);
+      console.log(data.video);
     } else {
       navigate("/404");
     }
@@ -30,7 +33,13 @@ export default function VideoPlayer() {
   return (
     <div className={styles.mainContainer}>
       <div className={styles.playVideo}>
-        <video src={video?.video}>Aici va fi video</video>
+        <video
+          src={video?.video}
+          type="video/mp4"
+          autoPlay
+          muted
+          controls
+        ></video>
         <h3>{video?.title}</h3>
         <div className={styles.flexContainer}>
           <div className={styles.userData}>
@@ -61,7 +70,7 @@ export default function VideoPlayer() {
           <div className={styles.comments}>
             {video ? (
               video.comments.map((comment) => (
-                <div className={styles.comment}>
+                <div key={comment.user} className={styles.comment}>
                   <img
                     className={styles.commentAvatar}
                     src={comment.user.avatar}

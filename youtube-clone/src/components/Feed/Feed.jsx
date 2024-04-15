@@ -52,7 +52,7 @@ export default function Feed() {
       {videos.length ? (
         videos.map((video) => (
           <Link key={video.id} to={`video/${video.id}`} className="card">
-            <img className="thumbnail-image" src={video.video}></img>{" "}
+            <img className="thumbnail-image" src={video.thumbnail}></img>{" "}
             <div className="   bottom-container  flex">
               <img className="thumbnail-avatar" src={video.owner.avatar}></img>{" "}
               <div className="vertical-container">

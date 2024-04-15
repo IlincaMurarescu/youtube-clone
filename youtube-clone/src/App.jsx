@@ -17,7 +17,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home sidebar={sidebar}></Home>}></Route>
 
-        <Route path="/video/:videoId" element={<VideoPlayer />}></Route>
+        <Route
+          path="/video/:videoId"
+          element={<VideoPlayer sidebar={sidebar} />}
+        ></Route>
       </Routes>
     </>
   );
