@@ -13,12 +13,11 @@ function App() {
   return (
     <>
       <Header setSidebar={setSidebar}>.</Header>
-
       <Routes>
         <Route path="/" element={<Home sidebar={sidebar}></Home>}></Route>
 
         <Route
-          path="/video/:videoId"
+          path="/:videoId"
           element={<VideoPlayer sidebar={sidebar} />}
         ></Route>
       </Routes>
