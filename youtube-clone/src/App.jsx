@@ -1,28 +1,30 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import Home from "./components/Home/Home";
-import "./App.css";
-import Header from "./components/Header/Header";
-import Sidebar from "./components/Sidebar/Sidebar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
+import { useState } from 'react';
+import { Routes, Route } from 'react-router-dom';
+
+import Home from './components/Home/Home';
+import Header from './components/Header/Header';
+import VideoPlayer from './components/VideoPlayer/VideoPlayer';
+
+import './App.css';
 
 function App() {
-  const [sidebar, setSidebar] = useState(true);
+	const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
-  return (
-    <>
-      <Header setSidebar={setSidebar}>.</Header>
-      <Routes>
-        <Route path="/" element={<Home sidebar={sidebar}></Home>}></Route>
-
-        <Route
-          path="/:videoId"
-          element={<VideoPlayer sidebar={sidebar} />}
-        ></Route>
-      </Routes>
-    </>
-  );
+	return (
+		<>
+			<Header setIsSidebarOpen={setIsSidebarOpen}>.</Header>
+			<Routes>
+				<Route
+					path='/'
+					element={<Home isSidebarOpen={isSidebarOpen} />}
+				/>
+				<Route
+					path='/:videoId'
+					element={<VideoPlayer isSidebarOpen={isSidebarOpen} />}
+				/>
+			</Routes>
+		</>
+	);
 }
 
 export default App;
