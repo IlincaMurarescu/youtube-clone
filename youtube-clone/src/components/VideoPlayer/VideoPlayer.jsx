@@ -5,7 +5,6 @@ import share from "../../assets/videoplayer/share.svg";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import getVideo from "../../utils/getvideobyid";
 import { useState, useEffect } from "react";
-import myvideo from "../../assets/videos/3045714-hd_1920_1080_25fps.mp4";
 import Feed from "../Feed/Feed";
 import Sidebar from "../Sidebar/Sidebar";
 
@@ -41,7 +40,7 @@ export default function VideoPlayer({ sidebar }) {
         <div className={styles.mainContainer}>
           <div className={styles.playVideo}>
             <video
-              src={video?.video}
+              src={`${import.meta.env.BASE_URL}${video.video}`}
               type="video/mp4"
               autoPlay
               muted

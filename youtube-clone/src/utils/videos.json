@@ -2,8 +2,8 @@
   {
     "id": 42,
     "title": "Puppies Playing",
-    "video": "/src/assets/videos/3045714-hd_1920_1080_25fps.mp4",
-    "thumbnail": "/src/assets/thumbnails/3045714.png",
+    "video": "videos/3045714-hd_1920_1080_25fps.mp4",
+    "thumbnail": "thumbnails/3045714.png",
     "description": "Watch these adorable puppies having fun and playing together.",
     "views": 500,
     "owner": {
@@ -22,7 +22,6 @@
       {
         "user": {
           "avatar": "https://i.pravatar.cc/150?img=41",
-
           "username": "AnimalLover"
         },
         "content": "These puppies are the definition of pure joy."
@@ -32,9 +31,8 @@
   {
     "id": 43,
     "title": "My Cat",
-    "video": "/src/assets/videos/855029-hd_1920_1080_30fps.mp4",
-    "thumbnail": "/src/assets/thumbnails/855029.png",
-
+    "video": "videos/855029-hd_1920_1080_30fps.mp4",
+    "thumbnail": "thumbnails/855029.png",
     "description": "Witness the curiosity of this adorable cat exploring its surroundings.",
     "views": 800,
     "owner": {
@@ -69,8 +67,8 @@
   {
     "id": 44,
     "title": "Sounds of the Sea",
-    "video": "/src/assets/videos/20325563-uhd_3840_2160_60fps.mp4",
-    "thumbnail": "/src/assets/thumbnails/20325563.png",
+    "video": "videos/20325563-uhd_3840_2160_60fps.mp4",
+    "thumbnail": "thumbnails/20325563.png",
     "description": "Relax and unwind to the soothing sounds of the ocean waves.",
     "views": 1200,
     "owner": {
@@ -103,11 +101,10 @@
     ]
   },
   {
-    "id": 43,
+    "id": 45,
     "title": "My Cat",
-    "video": "/src/assets/videos/855029-hd_1920_1080_30fps.mp4",
-    "thumbnail": "/src/assets/thumbnails/855029.png",
-
+    "video": "videos/855029-hd_1920_1080_30fps.mp4",
+    "thumbnail": "thumbnails/855029.png",
     "description": "Witness the curiosity of this adorable cat exploring its surroundings.",
     "views": 800,
     "owner": {
@@ -142,9 +139,8 @@
   {
     "id": 47,
     "title": "Puppies Playing",
-    "video": "/src/assets/videos/3045714-hd_1920_1080_25fps.mp4",
-    "thumbnail": "/src/assets/thumbnails/3045714.png",
-
+    "video": "videos/3045714-hd_1920_1080_25fps.mp4",
+    "thumbnail": "thumbnails/3045714.png",
     "description": "Watch these adorable puppies having fun and playing together.",
     "views": 500,
     "owner": {
@@ -163,7 +159,6 @@
       {
         "user": {
           "avatar": "https://i.pravatar.cc/150?img=41",
-
           "username": "AnimalLover"
         },
         "content": "These puppies are the definition of pure joy."
@@ -171,10 +166,10 @@
     ]
   },
   {
-    "id": 43,
+    "id": 48,
     "title": "My Cat",
-    "video": "/src/assets/videos/855029-hd_1920_1080_30fps.mp4",
-    "thumbnail": "/src/assets/thumbnails/855029.png",
+    "video": "videos/855029-hd_1920_1080_30fps.mp4",
+    "thumbnail": "thumbnails/855029.png",
     "description": "Witness the curiosity of this adorable cat exploring its surroundings.",
     "views": 800,
     "owner": {
@@ -207,11 +202,10 @@
     ]
   },
   {
-    "id": 44,
+    "id": 49,
     "title": "Sounds of the Sea",
-    "video": "/src/assets/videos/20325563-uhd_3840_2160_60fps.mp4",
-    "thumbnail": "/src/assets/thumbnails/20325563.png",
-
+    "video": "videos/20325563-uhd_3840_2160_60fps.mp4",
+    "thumbnail": "thumbnails/20325563.png",
     "description": "Relax and unwind to the soothing sounds of the ocean waves.",
     "views": 1200,
     "owner": {
