@@ -33,6 +33,10 @@ export default function VideoPlayer({ sidebar }) {
     fetchVideo();
   }, [videoId]);
 
+  if (!video) {
+    return <div>Loading video...</div>;
+  }
+
   return (
     <>
       <Sidebar sidebar={sidebar}></Sidebar>
@@ -49,9 +53,9 @@ export default function VideoPlayer({ sidebar }) {
             <h3>{video?.title}</h3>
             <div className={styles.flexContainer}>
               <div className={styles.userData}>
-                <img src={video?.owner.avatar}></img>
+                <img src={video?.owner?.avatar}></img>
                 <div className={styles.smallContainer}>
-                  <p className={styles.username}>{video?.owner.username}</p>
+                  <p className={styles.username}>{video?.owner?.username}</p>
                   <p className={styles.subscribers}> 436 Subscribers</p>
                 </div>
                 <button>Subscribe</button>
