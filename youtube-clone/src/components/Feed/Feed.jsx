@@ -5,7 +5,18 @@ import getVideos from "../../utils/getvideos";
 import { useState } from "react";
 import { useEffect } from "react";
 
-export default function Feed() {
+export default function Feed({ category }) {
+  const API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY;
+
+  const [data, setData] = useState([]);
+  const fetchDataVideo = async () => {
+    const videoList_url = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=20&regionCode=US&videoCategoryId=${category}&key=${API_KEY}`;
+    await fetch(videoList_url)
+      .then((response) => response.json())
+      .then((data) => setData(data));
+    console.log(data);
+  };
+
   const [videos, setVideos] = useState([]);
 
   function calculateTimePassed(postedAt) {
@@ -58,7 +69,8 @@ export default function Feed() {
               <div className="vertical-container">
                 <h3>{video.title}</h3> <p>{video.owner.username}</p>
                 <p>
-                  {video.views} views • {calculateTimePassed(video.posted_at)}{" "}
+                  {video.views} views •{" "}
+                  {calculateTimePassed(video.posted_at)}{" "}
                 </p>{" "}
               </div>
             </div>

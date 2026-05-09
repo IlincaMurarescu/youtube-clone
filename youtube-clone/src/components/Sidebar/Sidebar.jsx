@@ -11,7 +11,7 @@ import gaming from "../../assets/sidebar/trophy.svg";
 import sport from "../../assets/sidebar/gaming.svg";
 import podcast from "../../assets/sidebar/podcast.svg";
 
-export default function Sidebar({ sidebar }) {
+export default function Sidebar({ sidebar, category, setCategory }) {
   const [subscribed, setSubscribed] = useState([]);
 
   const fetchData = async () => {
@@ -44,23 +44,38 @@ export default function Sidebar({ sidebar }) {
 
       <div className="explore shortcut-link">
         <h3>Explore</h3>
-        <div className="side-link">
+        <div
+          className={`side-link ${category === 0 ? "active" : ""}`}
+          onClick={() => setCategory(0)}
+        >
           <img src={home} alt="" className="" />
           <p>Home</p>
         </div>
-        <div className="side-link">
+        <div
+          className={`side-link ${category === 10 ? "active" : ""}`}
+          onClick={() => setCategory(10)}
+        >
           <img src={music} alt="" className="" />
           <p>Music</p>
         </div>
-        <div className="side-link ">
+        <div
+          className={`side-link ${category === 20 ? "active" : ""}`}
+          onClick={() => setCategory(20)}
+        >
           <img src={gaming} alt="" className="" />
           <p>Gaming</p>
         </div>
-        <div className="side-link">
+        <div
+          className={`side-link ${category === 17 ? "active" : ""}`}
+          onClick={() => setCategory(17)}
+        >
           <img src={sport} alt="" className="" />
           <p>Sport</p>
         </div>
-        <div className="side-link">
+        <div
+          className={`side-link ${category === 22 ? "active" : ""}`}
+          onClick={() => setCategory(22)}
+        >
           <img src={podcast} alt="" className="" />
           <p>Podcasts</p>
         </div>

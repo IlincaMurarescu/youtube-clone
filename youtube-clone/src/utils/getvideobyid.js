@@ -1,6 +1,5 @@
 import videos from "./videos";
 
-// Funcția care returnează entitatea cu un ID dat
 export const fetchVideoById = (id) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
