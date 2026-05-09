@@ -1,10 +1,8 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import Home from "./components/Home/Home";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header/Header";
-import Sidebar from "./components/Sidebar/Sidebar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home/Home";
 import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
 
 function App() {
