@@ -34,7 +34,7 @@ export default function VideoPlayer({ sidebar }) {
   }, [videoId]);
 
   if (!video) {
-    return <div>Loading video...</div>;
+    return <div>Loading video page...</div>;
   }
 
   return (
