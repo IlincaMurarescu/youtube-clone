@@ -1,0 +1,15 @@
+/* color pallete
+red: #ff0000
+dark red: #cc0000
+dark gray: #a3a3a3
+darg gray2: #d3d3d3
+light gray: #e5e5e5
+black (text): #272727 sau #282828
+
+
+*/
+
+body {
+  font-family: Arial;
+  color: #282828;
+}

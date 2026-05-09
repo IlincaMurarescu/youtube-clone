@@ -1,0 +1,118 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  width: 400px;
+  height: 33px;
+  padding-left: 10px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border: 1px solid #d3d3d3;
+  outline: 0;
+  background: transparent;
+  box-shadow: 1 1px 2px #eee inset;
+}
+
+.button {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  transition: background 0.2s;
+  background-color: #d3d3d3;
+  cursor: pointer;
+}
+
+.formButton {
+  margin-left: 4px;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  border: none;
+  background-color: transparent;
+}
+
+.formButton:hover {
+  transition: background 0.2s;
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+
+.formButton1 {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+  height: 37px;
+  width: 45px;
+  border: none;
+  background-color: #e5e5e5;
+}
+
+.formButton1:hover {
+  transition: background 0.2s;
+  background-color: #d3d3d3;
+  cursor: pointer;
+}
+
+.logo {
+  height: 40px;
+  margin-left: 7px;
+}
+
+.avatarButton {
+  background-color: transparent;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  border-color: transparent;
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 90%;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.iconw {
+  width: 90%;
+}
+
+.iconh {
+  height: 99%;
+}
+
+.iconlens {
+  height: 70%;
+}

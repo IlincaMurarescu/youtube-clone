@@ -1,0 +1,37 @@
+[
+  {
+    "username": "john_doe",
+    "avatar": "https://i.pravatar.cc/150?img=9    ",
+    "followers": 3500
+  },
+  {
+    "username": "sarah_smith",
+    "avatar": "https://i.pravatar.cc/150?img=23    ",
+    "followers": 2800
+  },
+  {
+    "username": "alex_jones",
+    "avatar": "https://i.pravatar.cc/150?img=7   ",
+    "followers": 4200
+  },
+  {
+    "username": "emily_wang",
+    "avatar": "https://i.pravatar.cc/150?img=11    ",
+    "followers": 1900
+  },
+  {
+    "username": "michael",
+    "avatar": "https://i.pravatar.cc/150?img=14    ",
+    "followers": 5100
+  },
+  {
+    "username": "lisa_garcia",
+    "avatar": "https://i.pravatar.cc/150?img=15    ",
+    "followers": 3700
+  },
+  {
+    "username": "kevin",
+    "avatar": "https://i.pravatar.cc/150?img=17    ",
+    "followers": 3100
+  }
+]

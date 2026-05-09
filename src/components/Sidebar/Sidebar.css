@@ -1,0 +1,96 @@
+.sidebar {
+  width: 180px;
+  height: 100vh;
+  position: fixed;
+  top: 60px;
+  padding-left: 17px;
+  overflow-y: scroll;
+  background-color: white;
+}
+
+.small-sidebar {
+  display: none !important;
+}
+
+.small-sidebar .subscribed-list {
+  display: none;
+}
+
+.subscribed-list {
+  padding-bottom: 8px;
+  border-bottom: 1.5px solid #e5e5e5;
+}
+
+.subscribed-list img {
+  border-radius: 50%;
+}
+
+.side-link img {
+  height: 20px;
+
+  margin-right: 20px;
+}
+
+.side-link.active {
+  background-color: #e5e5e5;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a3a3a3;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.explore {
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.explore:last-child {
+  margin-bottom: 40px;
+}
+
+.explore img {
+  height: 20px;
+  margin-right: 25px;
+}
+
+.explore h3 {
+  margin-top: 8px;
+}
+
+.side-link {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+
+  margin-right: 8px;
+  padding-left: 14px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.side-link:hover {
+  cursor: pointer;
+  transition: background 0.2s;
+  background-color: #e5e5e5;
+}
